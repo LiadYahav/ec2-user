@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Example</title>
+<style>
+        body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+        }
+        .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                allign-content: space-between;
+                height: 100%;
+        }
+        .item {
+                flex-basis: calc(33.33% - 20px);
+                margin: 10px;
+                backgrond-color: #f0f0f0;
+                border: 1px solid #ccc;
+                padding: 20px;
+                box-sizing: border-box;
+                text-allign: center;
+        }
+</style>
+</head>
+<body>
+
+<div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+</div>
+
+</body>
+</html>
